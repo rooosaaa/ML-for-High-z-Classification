@@ -40,7 +40,7 @@ To train, pass the model, dataloaders, and optimiser into your training loop.
 - Loss function: CrossEntropyLoss with optional class weighting [3]
 - Optimiser: Adam, default learning rate 5e-4 [4]
 - Input: 7-band image cubes (shape: [batch_size, 7, 64, 64])
-- Output: 3-class softmax logits
+- Output: 3-class softmax logits [5]
 
 ## Acknowledgements
 
@@ -55,6 +55,8 @@ This repository was developed as part of a summer research project focused on ma
 [3] Sara A. Solla, Esther Levin, et al, Accelerated learning in layered neural networks, Complex Systems, 2:625–640, 1988.
 
 [4] Diederik P. Kingma and Jimmy Ba, Adam: A method for stochastic optimization, In International Conference on Learning Representations, 2017.
+
+[5] John S. Bridle, Training Stochastic Model Recognition Algorithms as Networks can Lead to Maximum Mutual Information Estimation of Parameters, Advances in Neural Information Processing Systems 2, 1989.
 
 
 
