@@ -49,7 +49,9 @@ This repository was developed as part of a summer research project focused on ma
 ## References
 
 [1] Kaiming He, Xiangyu Zhang, et al. Deep Residual Learning for Image Recognition, IEEE, 2015.
+
 [2] Jie Hu, Li Shen, et al. Squeeze-and-Excitation Networks, IEEE, 2019.
+
 [3] Diederik P. Kingma and Jimmy Ba, Adam: A method for stochastic optimization, In International Conference on Learning Representations, 2017.
 
 
