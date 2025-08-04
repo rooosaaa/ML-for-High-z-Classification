@@ -15,8 +15,8 @@ This repository contains a custom Convolutional Neural Network (CNN) built with 
 The model is tailored for 7-band JWST NIRCam cutouts, using both spectral and spatial information to distinguish between distant galaxies and stellar interlopers. It’s designed for astrophysical surveys aiming to identify candidate galaxies from the early Universe.
 
 ## Features
-- Residual architecture to capture both spectral and spatial features
-- Channel attention module (Squeeze-and-Excitation) to highlight informative bands
+- Residual architecture to capture both spectral and spatial features [1]
+- Channel attention module (Squeeze-and-Excitation) to highlight informative bands [2]
 - Modular design for easy modification or experimentation
 - Includes tools to extract intermediate feature maps for visualisation or interpretation
 - Optimised for 64×64 pixel image cutouts across 7 JWST NIRCam filters
@@ -37,8 +37,8 @@ model = create_model(n_bands=7, image_size=64)
 To train, pass the model, dataloaders, and optimiser into your training loop.
 
 ## Training Details
-- Loss function: CrossEntropyLoss with optional class weighting
-- Optimiser: Adam, default learning rate 5e-4
+- Loss function: CrossEntropyLoss with optional class weighting [3]
+- Optimiser: Adam, default learning rate 5e-4 [4]
 - Input: 7-band image cubes (shape: [batch_size, 7, 64, 64])
 - Output: 3-class softmax logits
 
@@ -52,7 +52,11 @@ This repository was developed as part of a summer research project focused on ma
 
 [2] Jie Hu, Li Shen, et al. Squeeze-and-Excitation Networks, IEEE, 2019.
 
-[3] Diederik P. Kingma and Jimmy Ba, Adam: A method for stochastic optimization, In International Conference on Learning Representations, 2017.
+[3] Sara A. Solla, Esther Levin, et al, Accelerated learning in layered neural networks, Complex Systems, 2:625–640, 1988.
+
+[4] Diederik P. Kingma and Jimmy Ba, Adam: A method for stochastic optimization, In International Conference on Learning Representations, 2017.
+
+
 
 
 
