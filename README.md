@@ -11,6 +11,7 @@ This repository contains a custom Convolutional Neural Network (CNN) built with 
 - High redshift (z ≥ 4)
 - Low redshift (z < 4)
 - Brown dwarf contaminants
+  
 The model is tailored for 7-band JWST NIRCam cutouts, using both spectral and spatial information to distinguish between distant galaxies and stellar interlopers. It’s designed for astrophysical surveys aiming to identify candidate galaxies from the early Universe.
 
 ## Features
