@@ -1,4 +1,4 @@
-# ML-for-High-z-Classification
+# Machine Learning Techniques for High-Redshift Galaxy Classification with JWST NIRCam Data
 ## Author
 Rosa Roberts (rosa.roberts@student.manchester.ac.uk)
 - Jodrell Bank Centre for Astrophysics, University of Manchester, Manchester, M13 9PL, UK.
@@ -42,5 +42,15 @@ To train, pass the model, dataloaders, and optimiser into your training loop.
 - Input: 7-band image cubes (shape: [batch_size, 7, 64, 64])
 - Output: 3-class softmax logits
 
+## Acknowledgements
+
+This repository was developed as part of a summer research project focused on machine learning methods for identifying high-redshift galaxies in JWST NIRCam imaging. The study explores both supervised CNN models and a semi-supervised pipeline combining HDBSCAN clustering with Random Forest classification. The supervised pipeline aims to detect key spectral features like the Lyman break, achieving up to 98% accuracy in classifying galaxies by redshift. Funding for this project was provided by Google DeepMind, the Royal Academy of Engineering, and the Hg Foundation. 
+
 ## References
+
+[1] Kaiming He, Xiangyu Zhang, et al. Deep Residual Learning for Image Recognition, IEEE, 2015.
+[2] Jie Hu, Li Shen, et al. Squeeze-and-Excitation Networks, IEEE, 2019.
+[3] Diederik P. Kingma and Jimmy Ba, Adam: A method for stochastic optimization, In International Conference on Learning Representations, 2017.
+
+
 
