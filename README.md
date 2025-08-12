@@ -10,6 +10,10 @@ Rosa Roberts (rosa.roberts@student.manchester.ac.uk)
 This codebase is archived on Zenodo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16812903.svg)](https://doi.org/10.5281/zenodo.16812903)
 
+## Report & Poster Archive
+The report and poster are archived on Zenodo:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16761222.svg)](https://doi.org/10.5281/zenodo.16761222)
+
 ## Overview
 This repository contains a custom Convolutional Neural Network (CNN) built with PyTorch to classify galaxies from JWST imaging into one of three categories:
 - High redshift (z ≥ 4)
